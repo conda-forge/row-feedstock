@@ -1,5 +1,5 @@
 {% set name = "row" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/glotzerlab/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}.tar.zst
-  sha256: b2a49d10e216c753bbd264cc516d9ed07ad3d166c3242420bc644f9158ad8c0d
+  sha256: 7abb0bb0be6dd1d0669097180ff749665d59f8d88538728faff7514722d2dbba
 
 build:
   number: 0
