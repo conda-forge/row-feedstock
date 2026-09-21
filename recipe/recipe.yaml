@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: row
-  version: "1.0.1"
+  version: "1.1.0"
 
 package:
   name: ${{ name }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/glotzerlab/${{ name }}/releases/download/${{ version }}/${{ name }}-${{ version }}.tar.zst
-  sha256: e75edf238ce30043af42b1730d18876ce686792e77d1b197312a6f258de94233
+  sha256: cc2229bbc8baa217c30e4d3f2d40ae67cb68d7d3b7b2f48909b17826c81c3a7f
 
 build:
   number: 0
